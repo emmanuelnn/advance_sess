@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/menuDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/quizBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz" />
+
+    <Button
+        android:id="@+id/diceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dice" />
+
+    <Button
+        android:id="@+id/fileBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File" />
+
+    <Button
+        android:id="@+id/calBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calculator" />
+
+    <Button
+        android:id="@+id/bgroundBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Background Change" />
+
+    <TextView
+        android:id="@+id/welDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome" />
+
+</LinearLayout>
